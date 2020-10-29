@@ -35,9 +35,13 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword()
 {
   var passLength= prompt ("Please choose a password length between 8 and 128 characters");  //verify the user enters correct numbers
-  if (passLength < 8 || passLength > 129)
+  if (passLength < 8 || passLength > 129 ) 
   {
     alert ("that is not a valid number")
+  }
+  else if(isNaN(passLength)=== true) // verify only numbers are being entered
+  {
+    alert("numbers only plaease!")
   }
   else
   {
