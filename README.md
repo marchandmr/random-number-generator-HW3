@@ -4,7 +4,9 @@ link to my number generator : https://marchandmr.github.io/random-number-generat
 
 Using my knowledge of JavaScript, and functions, I was tasked with creating an application that generated a password for the user after taking in specific criteria. To accomplish this task, I created variables containing all the different criteria the user could pick. After the user chose what they needed in their password I crated if statements for each possibility and added the strings that contained the criteria they chose, I then used math. Random to randomly select items out of the newly formed array. Finally I returned the value of the password back to the user.
 
-==================================================CRITERIA=====================================
+
+
+===============================================CRITERIA====================================
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
 THEN I am presented with a series of prompts for password criteria
