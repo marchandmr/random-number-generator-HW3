@@ -6,10 +6,10 @@ Using my knowledge of JavaScript, and functions, I was tasked with creating an a
 
 
 
-===============================================CRITERIA====================================
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
+
+GIVEN I need a new, secure password <br>
+WHEN I click the button to generate a password <br>
+THEN I am presented with a series of prompts for password criteria <br>
 WHEN prompted for password criteria
 THEN I select which criteria to include in the password
 WHEN prompted for the length of the password
